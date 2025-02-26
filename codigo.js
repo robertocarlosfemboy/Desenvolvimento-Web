@@ -1,4 +1,5 @@
-/*console.log("oi");
+/* EXERCÍCIO 1
+console.log("oi");
 var num = 10;
 if (num %2 == 0 ){
     console.log("O numero é par");
@@ -20,7 +21,30 @@ else{
     console.log("não é primo")
 }      */             
 
-/*var opcao = 0;
+
+/* EXERCÍCIO 2
+var x = 0;
+var y = 1;
+var resultado;
+var quantidade = 8;
+resultado = x + y;
+var i = 3;
+while (i < quantidade ){
+    x = y;
+    y = resultado;
+    resultado = x+y;
+    i ++;
+}
+alert(resultado);
+*/
+
+/* EXERCÍCIO 3 
+var x = prompt("Digite os números: ");  
+alert();
+*/
+
+/* EXERCÍCIO 4
+var opcao = 0;
 var num1 = 0;
 var num2 = 0;
 var resultado =0
@@ -45,25 +69,13 @@ else{
     /*console.log("opção é invalida") 
 } */
 
+/* EXERCÍCIO 5 */
+var nome = prompt.str("Insira o nome: ");
+var idade = prompt.int("Insira a idade: ");
+var salario = prompt.int("Insira o valor do salário: ");
+var sexo = prompt.str("Escolha um entre f e m: ");
+var estadocivil = prompt.str("Insira o sexo: ")
 
-
-var x = 0;
-var y = 1;
-var resultado;
-var quantidade = 8;
-resultado = x + y;
-var i = 3;
-while (i < quantidade ){
-    x = y;
-    y = resultado;
-    resultado = x+y;
-    i ++;
-}
-
-alert(resultado);
-
-
-
-
-
-
+if (nome.len < 3){
+    
+};
